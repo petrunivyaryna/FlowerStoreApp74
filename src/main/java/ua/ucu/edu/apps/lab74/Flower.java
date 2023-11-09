@@ -1,4 +1,4 @@
-package main.java.ua.ucu.edu.apps.lab74;
+package ua.ucu.edu.apps.lab74;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
