@@ -1,4 +1,4 @@
-package ua.ucu.edu.apps.FlowerStore.payment;
+package ua.ucu.edu.apps.flowerstore.payment;
 
 public class PayPalPaymentStrategy implements Payment {
 

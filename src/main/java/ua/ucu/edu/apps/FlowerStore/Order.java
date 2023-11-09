@@ -1,12 +1,13 @@
-package ua.ucu.edu.apps.FlowerStore;
+package ua.ucu.edu.apps.flowerstore;
 
 import lombok.Getter;
 import lombok.Setter;
+import ua.ucu.edu.apps.flowerstore.delivery.Delivery;
+import ua.ucu.edu.apps.flowerstore.payment.Payment;
+
 import java.util.LinkedList;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import ua.ucu.edu.apps.FlowerStore.delivery.Delivery;
-import ua.ucu.edu.apps.FlowerStore.payment.Payment;
 
 @Getter @Setter @AllArgsConstructor @NoArgsConstructor
 public class Order {
@@ -14,7 +15,7 @@ public class Order {
     private Payment payment;
     private Delivery delivery;
 
-    public double calculateTotalPrice(){
+    public double calculateTotalPrice() {
         double totalPrice = 0;
         for (Item item: items) {
             totalPrice += item.getPrice();

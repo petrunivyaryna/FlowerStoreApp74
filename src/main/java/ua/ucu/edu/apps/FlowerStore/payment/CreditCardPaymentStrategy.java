@@ -1,9 +1,9 @@
-package ua.ucu.edu.apps.FlowerStore.payment;
+package ua.ucu.edu.apps.flowerstore.payment;
 
 public class CreditCardPaymentStrategy implements Payment {
 
     @Override
-    public void pay(double amount){
+    public void pay(double amount) {
         
     }
     

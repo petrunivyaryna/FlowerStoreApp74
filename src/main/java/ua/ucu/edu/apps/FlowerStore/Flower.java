@@ -1,4 +1,4 @@
-package ua.ucu.edu.apps.FlowerStore;
+package ua.ucu.edu.apps.flowerstore;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

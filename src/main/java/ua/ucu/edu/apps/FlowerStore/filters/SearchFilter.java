@@ -1,6 +1,6 @@
-package ua.ucu.edu.apps.FlowerStore.filters;
+package ua.ucu.edu.apps.flowerstore.filters;
 
-import ua.ucu.edu.apps.FlowerStore.Item;
+import ua.ucu.edu.apps.flowerstore.Item;
 
 public interface SearchFilter {
     boolean match(Item item);

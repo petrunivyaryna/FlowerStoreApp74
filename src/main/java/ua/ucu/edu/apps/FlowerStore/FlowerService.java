@@ -1,4 +1,4 @@
-package ua.ucu.edu.apps.FlowerStore;
+package ua.ucu.edu.apps.flowerstore;
 
 import java.util.List;
 
@@ -7,11 +7,11 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class FlowerService {
-    public FlowerRepository flowerRepository;
+    private FlowerRepository flowerRepository;
 
     @Autowired
-    public FlowerService(FlowerRepository flowerRepositoryCurrent) {
-        this.flowerRepository = flowerRepositoryCurrent;
+    public FlowerService(FlowerRepository flowerRepository) {
+        this.flowerRepository = flowerRepository;
     }
     public List<Flower> getFlower() {
 		return flowerRepository.findAll();

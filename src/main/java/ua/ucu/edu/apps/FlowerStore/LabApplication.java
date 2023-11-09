@@ -1,4 +1,4 @@
-package ua.ucu.edu.apps.FlowerStore;
+package ua.ucu.edu.apps.flowerstore;
 
 
 import org.springframework.boot.SpringApplication;
@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class Lab74Application {
+public class LabApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Lab74Application.class, args);
+		SpringApplication.run(LabApplication.class, args);
 	}
 
 }

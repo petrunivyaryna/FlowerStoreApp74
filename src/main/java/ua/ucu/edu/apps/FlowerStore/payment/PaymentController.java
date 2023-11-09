@@ -1,4 +1,4 @@
-package ua.ucu.edu.apps.FlowerStore.payment;
+package ua.ucu.edu.apps.flowerstore.payment;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
