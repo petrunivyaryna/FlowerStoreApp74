@@ -25,4 +25,4 @@ jobs:
           JAVA_FILE_NAME: checkstyle.xml
           FILTER_REGEX_INCLUDE: ".*src/.*"
       - name: Test with Maven
-        run: mvn --batch-mode --update-snapshots package
+        run: mvn -B package --file pom.xml
