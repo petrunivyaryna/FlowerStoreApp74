@@ -12,20 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/flowers")
 public class FlowerController {
-    private FlowerService flowerService;
-
-    @Autowired
-    public FlowerController(FlowerService flowerService) {
-        this.flowerService = flowerService;
-    }
-
     @GetMapping("/list")
     public List<Flower> getFlower() {
-        return flowerService.getFlower();
-    }
-
-    @PostMapping("/add")
-    public void addFlower(@RequestBody Flower flower)  {
-        flowerService.add(flower);
+        return List.of(new Flower(11.5, 11.5, FlowerColor.RED));
     }
 }
